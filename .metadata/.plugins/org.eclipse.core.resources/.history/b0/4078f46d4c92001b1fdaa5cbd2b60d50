@@ -1,0 +1,16 @@
+import student.grade.count.StudentBO;
+
+public class testStudentBO {
+	public void testStudentMapSize() {
+		StudentBO studentBO = new StudentBO();
+		studentBO.addStudentDetails("1000", 'A');
+		studentBO.addStudentDetails("1001", 'B');
+		studentBO.addStudentDetails("1001", 'C');
+		studentBO.addStudentDetails("1001", 'A');
+		studentBO.addStudentDetails("1001", 'C');
+		studentBO.addStudentDetails("1001", 'A');
+		studentBO.addStudentDetails("1001", 'A');
+		
+		
+	}
+}

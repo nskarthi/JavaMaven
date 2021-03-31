@@ -1,0 +1,32 @@
+package student.grade.count;
+
+import java.util.HashMap;
+import java.util.Set;
+
+public class StudentBO {
+	HashMap<String, Character> studentMap = new HashMap<String, Character>();
+
+	public StudentBO() {
+
+	}
+
+	public HashMap<String, Character> getStudentMap() {
+		return null;
+	}
+
+	public void setStudentMap(HashMap<String, Character> map) {
+
+	}
+
+	public void addStudentDetails(String rollNo, char grade) {
+		studentMap.put(rollNo, grade);
+	}
+
+	public int findCountOfStudents(char grade) {
+		Set<String> keys = studentMap.keySet();
+		for(int i=0;i<studentMap.size(); i++) {
+			if(studentMap.g
+		}
+		return studentMap.size();
+	}
+}

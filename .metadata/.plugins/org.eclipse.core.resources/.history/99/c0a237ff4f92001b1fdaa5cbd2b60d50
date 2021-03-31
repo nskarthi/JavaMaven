@@ -1,0 +1,18 @@
+package collection.tests;
+
+import org.junit.Test;
+
+import collections.FruitShop;
+import collections.StudentBO;
+
+public class testFruitShop {
+	@Test
+	public void testStudentMapSize() {
+		FruitShop basket = new FruitShop();
+		basket.addToBasket(3, "Apple");
+		basket.addToBasket(5, "Mango");
+		basket.addToBasket(2, "Banana");
+		basket.addToBasket(1, "Strawberry");
+		basket.addToBasket(4, "Guava");
+	}
+}

@@ -1,0 +1,8 @@
+package collections;
+
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class FruitShop {
+	SortedSet<Integer, String> basket = new TreeSet<Integer, String>();
+}

@@ -1,0 +1,10 @@
+package student.grade.count;
+
+public class StudentBO {
+	HashMap<String, char> StudentMap = new HashMap<String, char>();
+	
+	
+	public StudentBO() {
+		
+	}
+}

@@ -1,0 +1,19 @@
+package student.grade.count;
+
+import java.util.HashMap;
+
+public class StudentBO {
+	HashMap<String, Character> StudentMap = new HashMap<String, Character>();
+		
+	public StudentBO() {
+		
+	}
+	
+	public HashMap<String, Character> getStudentMap() {
+		return null;
+	}
+	
+	public void setStudentMap(HashMap studentMap<String, Character>) {
+		
+	}
+}

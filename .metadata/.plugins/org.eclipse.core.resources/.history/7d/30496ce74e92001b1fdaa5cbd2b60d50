@@ -1,0 +1,8 @@
+package collections;
+
+import java.util.SortedMap;
+import java.util.TreeMap;
+
+public class FruitShop {
+	SortedMap<Integer, String> basket = new TreeMap<Integer, String>();
+}

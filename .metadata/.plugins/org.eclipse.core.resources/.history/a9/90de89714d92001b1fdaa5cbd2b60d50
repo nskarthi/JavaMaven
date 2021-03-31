@@ -1,0 +1,22 @@
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
+import student.grade.count.StudentBO;
+
+public class testStudentBO {
+
+	@Test
+	public void testStudentMapSize() {
+		StudentBO studentBO = new StudentBO();
+		studentBO.addStudentDetails("1000", 'A');
+		studentBO.addStudentDetails("1001", 'B');
+		studentBO.addStudentDetails("1002", 'C');
+		studentBO.addStudentDetails("1003", 'A');
+		studentBO.addStudentDetails("1004", 'C');
+		studentBO.addStudentDetails("1005", 'A');
+		studentBO.addStudentDetails("1006", 'A');
+
+		assertEquals(studentBO.findCountOfStudents('A'), 4);
+	}
+}
