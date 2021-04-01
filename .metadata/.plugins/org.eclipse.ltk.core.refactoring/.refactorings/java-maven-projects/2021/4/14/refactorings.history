@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ComparableExercise.java&apos; to &apos;java-maven-projects/src/test/java/collection.tests&apos;&#x0D;&#x0A;- Original project: &apos;java-maven-projects&apos;&#x0D;&#x0A;- Destination element: &apos;java-maven-projects/src/test/java/collection.tests&apos;&#x0D;&#x0A;- Original element: &apos;collections.ComparableExercise.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;collection.tests" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;collections{ComparableExercise.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1617238914256" units="1" version="1.0"/>
+</session>

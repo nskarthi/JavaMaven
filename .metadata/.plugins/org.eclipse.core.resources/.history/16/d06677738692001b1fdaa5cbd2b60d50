@@ -1,0 +1,10 @@
+package collection.tests;
+
+import org.junit.Test;
+
+public class ComparableExercise {
+	@Test
+	public void testForStudentSorting() {
+		List<Student> students = new ArrayList<Student>();
+	}
+}
